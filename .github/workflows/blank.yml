@@ -35,6 +35,7 @@ jobs:
         run: npm install newman -g
 
       # Run Newman Test
-      - name: Running first collections
+      - name: Running first collection
+        run: newman run Automation_Exercise_postman_collection.json
 
       
